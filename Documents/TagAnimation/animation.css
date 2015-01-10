@@ -1,0 +1,80 @@
+
+<style type="text/css">
+@-webit-keyframs travel {
+  from {       }
+  to   { left: 640px;}
+}
+@keyrames travel {
+  from{        }
+  to { left:640}
+}
+</style>
+
+<style> type="text/css">
+
+@-webkit-keyframes bounce {
+  from, to {
+    bothom: 0;
+    -webkit-animation-timing-function: ease-out;
+  }
+  50% {
+    bottom: 220px;
+    -webkit-animation-timing-function: ease-in;
+  }
+  {
+    @keyframes bounce{
+      from, to{
+        bottom: 0;
+        animation-timing-function: ease-out;
+
+}
+  50%{
+    bottom:220px;
+    animation-timing-function: ease-in;
+}
+    }
+</style>
+<style type="text/css">
+#stage:{
+  position: relative;
+  margin: 1em auto;
+  width: 660px;
+  height: 240px;
+  border: 2px solid #666;
+  background: #cff
+}
+</style>
+<style type="text/css">
+#traveler{
+  position: absolute;
+  width:20px;
+  height: 240px;
+
+  -webkit-animation-name: travel;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-timing-function: infinite;
+  -webkit-animation-timing-function: alternate;
+  -webkit-animation-duration: 4.8s;
+
+  animation-name: travel;
+  animation-timing-function: linear;
+  animation-interation-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 4.8s;
+}
+
+#bouncer{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: red;
+  border-radius: 10px;
+
+  -webkit-animation-name: bounce;
+  -webkit-animation-iteration-count; infinite;
+  -webkit-animation-duration: 4.2s;
+
+  animation-name: bounce
+  animation-iteration-count: infinite;
+  animation-duration: 4.2s;
+}
